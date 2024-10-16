@@ -43,7 +43,7 @@ public class userController {
     public Integer getInt(@RequestBody UniversalRequestHandler universalRequestHandler){
         List<User> myList = universalRequestHandler.getListValue("myList", User.class);
         return universalRequestHandler.getIntegerValue("myInt");
-//        bug fixed
+//      new bug
     }
 
 }
